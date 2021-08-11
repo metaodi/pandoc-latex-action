@@ -3,11 +3,11 @@
 A GitHub Action based on the [pandoc/latex Dockerfile](https://github.com/pandoc/dockerfiles).
 This action uses a custom image in order to install additional packages.
 
-These packages include:
+These packages include (needed to get MS fonts to work):
 - msttcorefonts-installer
 - fontconfig
 
-Needed to get MS fonts to work.
+And a few additional [CTAN](https://ctan.org/) packages (see the [Dockerfile](https://github.com/metaodi/pandoc-latex-action/blob/main/Dockerfile) for details).
 
 ## Usage
 
