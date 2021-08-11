@@ -16,13 +16,13 @@ There is a [sample workflow in this repository](https://github.com/metaodi/pando
 This converts all `.md` files in `docs` to a PDF:
 
 ```yaml
-- uses: metaodi/pandoc-latex-action@v1
+- uses: metaodi/pandoc-latex-action@v2.1
   with:
     args: >-
        --pdf-engine=xelatex
        --from markdown+footnotes+pipe_tables
        --table-of-contents 
        --output=output/result.pdf
-       docs/*.md
+       README.md
 ```
 
