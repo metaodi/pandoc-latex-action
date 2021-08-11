@@ -13,7 +13,7 @@ And a few additional [CTAN](https://ctan.org/) packages (see the [Dockerfile](ht
 
 There is a [sample workflow in this repository](https://github.com/metaodi/pandoc-latex-action/blob/main/.github/workflows/documentation.yml):
 
-This converts all `.md` files in `docs` to a PDF:
+This converts the `README.md` file to a PDF:
 
 ```yaml
 - uses: metaodi/pandoc-latex-action@v2.1
