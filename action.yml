@@ -1,0 +1,5 @@
+name: 'Pandoc/Latex action'
+description: 'Use pandoc/latex with custom image'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
