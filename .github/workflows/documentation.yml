@@ -1,0 +1,31 @@
+name: Generate documentation PDF
+
+on:
+  workflow_dispatch:
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Create output directory
+        run: mkdir output
+
+      - uses: metaodi/pandoc-latex-action@v1
+        with:
+          args: >-
+             -V colorlinks=true
+             -V linkcolor=blue
+             -V urlcolor=blue
+             -V toc-title:"Inhaltsverzeichnis"
+             --pdf-engine=xelatex
+             --from markdown+footnotes+pipe_tables
+             --table-of-contents 
+             --output=output/result.pdf
+             README.md
+          
+      - uses: actions/upload-artifact@master
+        with:
+          name: output
+          path: output
