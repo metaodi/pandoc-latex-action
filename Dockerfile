@@ -19,5 +19,5 @@ RUN tlmgr install titlesec \
                   float \
                   threeparttable \
                   tikzpagenodes \
-                  titling
-                   
+                  titling \
+                  ifoddpage
