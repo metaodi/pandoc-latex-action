@@ -17,6 +17,7 @@ RUN tlmgr install titlesec \
                   pdflscape \
                   tabu \
                   float \
+                  tex-gyre \
                   threeparttable \
                   tikzpagenodes \
                   titling \
