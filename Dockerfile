@@ -15,6 +15,7 @@ RUN tlmgr install titlesec \
                   wrapfig \
                   colortbl \
                   pdflscape \
+                  koma-script \
                   tabu \
                   float \
                   tex-gyre \
