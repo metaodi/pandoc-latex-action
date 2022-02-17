@@ -1,9 +1,9 @@
 FROM pandoc/latex
 
 # Install MS fonts
-RUN apk --no-cache add msttcorefonts-installer fontconfig && \
-    update-ms-fonts && \
-    fc-cache -f
+# RUN apk --no-cache add msttcorefonts-installer fontconfig && \
+#    update-ms-fonts && \
+#    fc-cache -f
     
 # Install additional Latex packages
 RUN tlmgr update --self
