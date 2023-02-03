@@ -22,6 +22,7 @@ RUN tlmgr install titlesec \
                   float \
                   tex-gyre \
                   threeparttable \
+                  todonotes \
                   tikzpagenodes \
                   titling \
                   ifoddpage
