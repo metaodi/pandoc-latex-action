@@ -15,6 +15,7 @@ RUN tlmgr install titlesec \
                   wrapfig \
                   colortbl \
                   changes \
+                  xstring \
                   pdflscape \
                   koma-script \
                   tabu \
