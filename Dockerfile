@@ -20,6 +20,7 @@ RUN tlmgr install titlesec \
                   koma-script \
                   tabu \
                   float \
+                  truncate \
                   tex-gyre \
                   threeparttable \
                   todonotes \
