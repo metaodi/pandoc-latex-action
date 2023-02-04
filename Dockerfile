@@ -26,4 +26,5 @@ RUN tlmgr install titlesec \
                   todonotes \
                   tikzpagenodes \
                   titling \
+                  hyperref \
                   ifoddpage
