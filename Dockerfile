@@ -14,17 +14,12 @@ RUN tlmgr install titlesec \
                   multirow \
                   wrapfig \
                   colortbl \
-                  changes \
-                  xstring \
                   pdflscape \
                   koma-script \
                   tabu \
                   float \
-                  truncate \
                   tex-gyre \
                   threeparttable \
-                  todonotes \
                   tikzpagenodes \
                   titling \
-                  hyperref \
                   ifoddpage
